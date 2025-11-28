@@ -4,13 +4,13 @@ import { ExternalLink, Github, Calendar, Tag } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React frontend and Node.js backend. Features include user authentication, product catalog, shopping cart, and payment integration.',
-      image: 'https://images.pexels.com/photos/4545978/pexels-photo-4545978.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Complained priority ml model',
+      description: 'Built an ML model to classify complaints into categories (Urgent / Moderate / Normal) Used NLP preprocessing + classification model (mention algorithm if possible like SVM/Logistic)',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.6bxM0HloPGm7suQRd_llEgHaE8?pid=Api&P=0&h=180',
       technologies: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
       liveUrl: '#',
-      githubUrl: '#',
-      date: 'Dec 2024'
+      githubUrl: 'https://github.com/vikash893/Complained_priority_ml_model',
+      date: 'Nov 2025'
     },
     {
       title: 'Weather Analytics Dashboard',
