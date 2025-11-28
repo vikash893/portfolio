@@ -13,21 +13,21 @@ const Projects = () => {
       date: 'Nov 2025'
     },
     {
-      title: 'Weather Analytics Dashboard',
-      description: 'Data visualization dashboard showing weather patterns and trends using Python and machine learning algorithms for weather prediction.',
-      image: 'https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'News Portal',
+      description: 'A news portal that shows category-wise news like sports or tech, requiring users to enter their own API key',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.vuvO15YkytKYIR8J2JQuOwHaEA?pid=Api&P=0&h=180',
       technologies: ['Python', 'Pandas', 'Matplotlib', 'Scikit-learn'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/vikash893/newsportal',
       date: 'Nov 2024'
     },
     {
-      title: 'Task Management App',
-      description: 'Responsive web application for task management with drag-and-drop functionality, real-time updates, and collaborative features.',
-      image: 'https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Smart Complained Tracking ',
+      description: 'Online platform where students submit complaints and track progress status Implemented backend routing and complaint category based allocation',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.mcxHMg0Ga7yXwJUUbkD-LAHaEO?pid=Api&P=0&h=180',
       technologies: ['React', 'JavaScript', 'CSS3', 'Local Storage'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/vikash893/Smart_Complained_Tracking-',
       date: 'Oct 2024'
     },
     // {
