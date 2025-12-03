@@ -96,6 +96,21 @@ const Interests = () => {
                 alt="Feedback"
                 className="mx-auto w-100 h-[550px] lg:w-100 lg:h-[550px] rounded-2xl object-cover shadow-2xl"
               />
+              
+          </div>
+        
+      </div>
+      <div className="mt-16 text-center">
+          <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Feedback by manbir bro 
+            </h3>
+            <img
+                src="/feedback2.png"
+                alt="Feedback"
+                className="mx-auto w-100 h-[550px] lg:w-100 lg:h-[550px] rounded-2xl object-cover shadow-2xl"
+              />
+              
           </div>
         
       </div>
