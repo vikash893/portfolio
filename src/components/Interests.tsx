@@ -108,7 +108,7 @@ const Interests = () => {
             <img
                 src="/feedback2.png"
                 alt="Feedback"
-                className="mx-auto w-[800px] h-[400px] lg:w-[800px] lg:h-[500px] rounded-2xl object-cover shadow-2xl"
+                className="mx-auto w-100 h-[550px] lg:w-100 lg:h-[550px] rounded-2xl object-cover shadow-2xl"
               />
               
           </div>
