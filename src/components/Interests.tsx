@@ -98,9 +98,7 @@ const Interests = () => {
               />
               
           </div>
-        
-      </div>
-      <div className="mt-16 text-center">
+          <div className="mt-16 text-center">
           <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Feedback by manbir bro 
@@ -114,6 +112,9 @@ const Interests = () => {
           </div>
         
       </div>
+        
+      </div>
+      
     </section>
   );
 };
