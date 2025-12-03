@@ -88,26 +88,30 @@ const Interests = () => {
       </div>
       <div className="mt-16 text-center">
         <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Feedback
-          </h3>
-          <img
-            src="/feedback.png"
-            alt="Feedback"
-            className="mx-auto w-full max-w-3xl h-auto rounded-2xl object-cover shadow-2xl"
-          />
-        </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* First Feedback */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Feedback
+              </h3>
+              <img
+                src="/feedback.png"
+                alt="Feedback"
+                className="mx-auto w-full h-auto rounded-2xl object-cover shadow-2xl"
+              />
+            </div>
 
-        <div className="mt-16 text-center">
-          <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Feedback by manbir bro
-            </h3>
-            <img
-              src="/feedback2.png"
-              alt="Feedback"
-              className="mx-auto w-full max-w-3xl h-auto rounded-2xl object-cover shadow-2xl"
-            />
+            {/* Second Feedback */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Feedback by manbir bro
+              </h3>
+              <img
+                src="/feedback2.png"
+                alt="Feedback"
+                className="mx-auto w-full h-auto rounded-2xl object-cover shadow-2xl"
+              />
+            </div>
           </div>
         </div>
       </div>
