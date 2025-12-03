@@ -64,7 +64,7 @@ const Interests = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{description}</p>
@@ -79,42 +79,39 @@ const Interests = () => {
               Life Philosophy
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              I believe that the best developers are well-rounded individuals who draw inspiration from diverse experiences. 
-              Whether it's the strategic thinking from cricket, the aesthetic sense from photography, the rhythm from music, 
+              I believe that the best developers are well-rounded individuals who draw inspiration from diverse experiences.
+              Whether it's the strategic thinking from cricket, the aesthetic sense from photography, the rhythm from music,
               or the problem-solving from technology - each interest contributes to my growth as both a developer and a person.
             </p>
           </div>
         </div>
       </div>
       <div className="mt-16 text-center">
+        <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            Feedback
+          </h3>
+          <img
+            src="/feedback.png"
+            alt="Feedback"
+            className="mx-auto w-full max-w-3xl h-auto rounded-2xl object-cover shadow-2xl"
+          />
+        </div>
+
+        <div className="mt-16 text-center">
           <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Feedback
+              Feedback by manbir bro
             </h3>
             <img
-                src="/feedback.png"
-                alt="Feedback"
-                className="mx-auto w-100 h-[550px] lg:w-100 lg:h-[550px] rounded-2xl object-cover shadow-2xl"
-              />
-              
+              src="/feedback2.png"
+              alt="Feedback"
+              className="mx-auto w-full max-w-3xl h-auto rounded-2xl object-cover shadow-2xl"
+            />
           </div>
-          <div className="mt-16 text-center">
-          <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Feedback by manbir bro 
-            </h3>
-            <img
-                src="/feedback2.png"
-                alt="Feedback"
-                className="mx-auto w-100 h-[550px] lg:w-100 lg:h-[550px] rounded-2xl object-cover shadow-2xl"
-              />
-              
-          </div>
-        
+        </div>
       </div>
-        
-      </div>
-      
+
     </section>
   );
 };
