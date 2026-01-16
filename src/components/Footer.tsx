@@ -22,7 +22,7 @@ const Footer = () => {
           
           <div className="border-t border-gray-800 pt-6">
             <p className="text-gray-500 text-sm">
-              "The best way to predict the future is to invent it." - Alan Kay
+              "The best way to predict the future is to invent it." - Vikash Bhardwaj 
             </p>
           </div>
         </div>
