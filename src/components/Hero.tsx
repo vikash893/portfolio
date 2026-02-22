@@ -13,7 +13,7 @@ const Hero = () => {
           {/* Content */}
           <div className="text-center lg:text-left">
             <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-              Hello, I'm 
+              Hello, I'm
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-600"> Vikash </span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
@@ -28,13 +28,13 @@ const Hero = () => {
                 View My Work
               </button>
               <button
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => window.open('/Vikash.pdf', '_blank')}
                 className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition-all duration-200"
               >
-                Get In Touch
+                 Resume
               </button>
             </div>
-            
+
             {/* Social Links */}
             <div className="flex space-x-6 justify-center lg:justify-start">
               {[
