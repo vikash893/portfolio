@@ -6,33 +6,6 @@ import smart_tracking_logo from '../../public/smart_tracking_logo.png';// Your l
 const Projects = () => {
   const projects = [
     {
-      title: 'Complained priority ml model',
-      description: 'Built an ML model to classify complaints into categories (Urgent / Moderate / Normal) Used NLP preprocessing + classification model (mention algorithm if possible like SVM/Logistic)',
-      image: 'https://tse4.mm.bing.net/th/id/OIP.6bxM0HloPGm7suQRd_llEgHaE8?pid=Api&P=0&h=180',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
-      liveUrl: '#',
-      githubUrl: 'https://github.com/vikash893/Complained_priority_ml_model',
-      date: 'Nov 2025'
-    },
-    {
-      title: 'News Portal',
-      description: 'A news portal that shows category-wise news like sports or tech, requiring users to enter their own API key',
-      image: 'https://tse4.mm.bing.net/th/id/OIP.vuvO15YkytKYIR8J2JQuOwHaEA?pid=Api&P=0&h=180',
-      technologies: ['Python', 'Pandas', 'Matplotlib', 'Scikit-learn'],
-      liveUrl: '#',
-      githubUrl: 'https://github.com/vikash893/newsportal',
-      date: 'Apr 2026'
-    },
-    {
-      title: 'Smart Complained Tracking ',
-      description: 'Online platform where students submit complaints and track progress status Implemented backend routing and complaint category based allocation',
-      image: smart_tracking_logo,
-      technologies: ['React', 'JavaScript', 'CSS3', 'Local Storage'],
-      liveUrl: 'https://kindlift.in/',
-      githubUrl: 'https://github.com/vikash893/Smart_Complained_Tracking-',
-      date: 'Apr 2026'
-    },
-    {
       title: 'Kindlift ',
       description: 'Smart ride sharing System where user can offer or share ride based on requirement',
       image: kindlift, // Using the imported local image instead of URL
