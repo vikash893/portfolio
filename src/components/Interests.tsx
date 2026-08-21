@@ -91,26 +91,26 @@ const Interests = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* First Feedback */}
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              {/* <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Feedback
               </h3>
               <img
                 src="/feedback.png"
                 alt="Feedback"
                 className="mx-auto w-full h-auto rounded-2xl object-cover shadow-2xl"
-              />
+              /> */}
             </div>
 
             {/* Second Feedback */}
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              {/* <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Feedback by manbir bro
               </h3>
               <img
                 src="/feedback2.png"
                 alt="Feedback"
                 className="mx-auto w-full h-auto rounded-2xl object-cover shadow-2xl"
-              />
+              /> */}
             </div>
           </div>
         </div>
